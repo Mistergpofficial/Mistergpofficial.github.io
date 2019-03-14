@@ -12,3 +12,6 @@ To remove an item from the cart simply click the Item in the cart area that you 
 After you have selected and removed all items and are ready to checkout click the "checkout" button at the bottom. Your total with deliveryFee will be shown along with a "pay now" button. deliverFee is 5% of each item
 
 To pay simply click the "pay now" button
+
+## Live Demo
+https://mistergpofficial.github.io/
