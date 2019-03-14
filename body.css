@@ -1,0 +1,58 @@
+
+ * {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-image: url(NT64HEb-_400x400.jpg);
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+section,
+header,
+div{
+  background-color: #FFFFFF;
+}
+
+img {
+  /*display:block;*/
+  margin: auto;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+li {
+  list-style: none outside none;
+}
+
+/*still trying to figure out how to fix the item spacing-Enj*/
+.item{
+    margin: auto;
+    width:350px;
+ }
+
+.shopping-cart{
+    display: flex;
+    border-top:2px solid #ccc;
+    width:100%;
+    padding:1em;
+    height:380px;
+    border-bottom:2px solid #ccc;
+}
+
+#cart{
+  padding: 20px;
+  border-bottom: solid #ccc;
+}

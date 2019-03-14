@@ -1,0 +1,52 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Supermart Role Functional Assesment 11</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="body.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+<body>
+        <header>
+				<h3>Meeks Clothing Luxury Store</h3>
+            </header>
+            
+            <section class="">
+                    <div class="item">
+                      <img src="https://res.cloudinary.com/hofqikf09/image/upload/v1550161879/mbamflqkpnqfhgoounmt.jpg" width=350px height=250px >
+                         <h4>Gucci Joggers</h4>
+                        <h3><strike>N12000.00</strike> N12000.00</h3><br>
+                         <button class="button" value="item1"> 
+                         Add To Cart 
+                         </button>
+                        
+                   </div>	
+                     <br>
+                 <div class="item">			
+                     <img src="https://res.cloudinary.com/hofqikf09/image/upload/v1550161823/qt8u6shewvf0dtf6wpeh.jpg" width=350px height=250px>
+                     <h4>Sweat Shirt</h4>
+                     <h3><strike>N15000.00</strike> N15000.00</h3><br>
+                     <button class="button" value="item2"> Add To Cart</button>
+                 </div>
+                 <div class="item">
+                     <img src="https://res.cloudinary.com/hofqikf09/image/upload/v1550161714/qsvptfznzdkirqkpg36h.jpg" width=350px height=250px>
+                     <h4>Fendi Slide</h4>
+                     <h3><strike>N12000.00</strike> N12000.00</h3><br>
+                     <button class="button" value="item3"> Add To Cart</button>
+                   </div>
+             </section><br><br><br>
+             <section id="cart">
+                 <ul id="itemList">
+                 </ul>
+                 <div>Subtotal: <span id="subtotal"></span></div>
+                 <button id="checkout" class="btn btn-primary">Check Out</button>
+                 <h1 class="checkout"></h1>
+                 <button id="pay" style="display:none;" class="btn btn-success">PayNow</button>
+             </section>
+    <script src="body.js"></script>
+</body>
+</html>
